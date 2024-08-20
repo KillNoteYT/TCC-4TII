@@ -79,49 +79,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
     
-    .whatsapp-btn img {
+.whatsapp-btn img {
     width: 70%; /* Tamanho do ícone do WhatsApp */
-    }
+}
 
-    .product-page {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: #FFFFFF; /* White background */
-      }
+.product-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FFFFFF; /* White background */
+}
       
-      .image-container {
-        width: 40%;
-        margin: 20px;
-      }
+.image-container {
+    width: 40%;
+    margin: 20px;
+}
       
-      .image-container img {
-        width: 100%;
-        height: auto;
-        border: 1px solid #000000; /* Black border */
-      }
+.image-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000; /* Black border */
+}
       
-      .info-container {
-        width: 50%;
-        margin: 20px;
-        text-align: left;
-      }
+.info-container {
+    width: 50%;
+    margin: 20px;
+    text-align: left;
+}
       
-      .price {
-        font-size: 24px;
-        font-weight: bold;
-        color: #000000; /* Black text */
-      }
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Black text */
+}
       
-      .description {
-        font-size: 16px;
-        color: #000000; /* Black text */
-      }
+.description {
+    font-size: 16px;
+    color: #000000; /* Black text */
+}
       
-      .buy-button:hover {
+.buy-button:hover {
 
-        background-color: #009dff; /* Dark gray background */
+    background-color: #009dff; /* Dark gray background */
       
-      }
+}
+
+.container-fluid {
+    background-color: #ffffff;
+}
