@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.bg-login-image {
+    background-image: url('img/ITDESIGNS.jpg'); /* Substitua pela URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-x;;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 1rem;
+    border: 1px solid rgba(24, 5, 108, 0.1); 
+    padding: 2%;
+    max-width: 100%; /* Garante que o card não ultrapasse a tela */
+    margin: 0 auto;
+    position: fixed;
+    top: 300px;
+    left: 100px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #5e5e5e;
+}
+/* Para telas menores, ajuste a imagem de fundo */
+@media (max-width: 768px) {
+    .bg-login-image {
+        background-image: url('img/banner.png'); /* Imagem alternativa para telas menores */
+    }
+}
