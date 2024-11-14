@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const predefinedPassword = "senha";
 
     if (username === predefinedUsername && password === predefinedPassword) {
-        // Redireciona para a página principal
+        // Redireciona para a página inicial
         window.location.href = "pagina-inicial.html";
     } else {
         errorMessage.textContent = "Usuário ou senha incorretos!";
