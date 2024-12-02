@@ -54,7 +54,7 @@
 }
 
 #produto2 {
-    height: 383px;
+    min-height: 400px;
 }
 
 #carouselExampleCaptions {
