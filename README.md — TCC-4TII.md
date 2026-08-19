@@ -148,8 +148,6 @@ O projeto representa uma etapa importante da minha formação em desenvolvimento
 
 **Mateus Pereira Camargo**
 
-Estudante e profissional de TI em direcionamento para **Desenvolvimento Front-end**.
+Profissional de TI em início de carreira, com foco em Desenvolvimento Front-end.
 
-**Tecnologias de interesse:** HTML5, CSS3, JavaScript e desenvolvimento web responsivo.
-
-[GitHub](https://github.com/KillNoteYT)
+**Tecnologias de interesse:** HTML5, CSS3, JavaScript e desenvolvimento web responsivo
