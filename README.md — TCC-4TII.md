@@ -146,7 +146,7 @@ O projeto representa uma etapa importante da minha formação em desenvolvimento
 
 ## 👤 Autor
 
-**Mateus Camargo**
+**Mateus Pereira Camargo**
 
 Estudante e profissional de TI em direcionamento para **Desenvolvimento Front-end**.
 
