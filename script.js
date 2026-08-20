@@ -1,19 +1,46 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const loginForm = document.getElementById("loginForm");
+  if (loginForm) {
+    const username = document.getElementById("username");
+    const password = document.getElementById("password");
+    const feedback = document.getElementById("error-message");
 
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); 
+    loginForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      loginForm.classList.add("was-validated");
+      feedback.textContent = "";
+      feedback.className = "login-feedback mt-3 mb-0";
 
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    const errorMessage = document.getElementById("error-message");
+      if (!loginForm.checkValidity()) return;
 
-    // Login e senha pré-definidos
-    const predefinedUsername = "usuario";
-    const predefinedPassword = "senha";
-
-    if (username === predefinedUsername && password === predefinedPassword) {
-        // Redireciona para a página inicial
+      const isDemoLogin = username.value.trim() === "usuario" && password.value === "senha";
+      if (isDemoLogin) {
+        feedback.textContent = "Acesso liberado. Redirecionando…";
+        feedback.classList.add("is-success");
         window.location.href = "pagina-inicial.html";
-    } else {
-        errorMessage.textContent = "Usuário ou senha incorretos!";
-    }
+        return;
+      }
+
+      feedback.textContent = "Usuário ou senha incorretos. Use as credenciais demonstrativas informadas acima.";
+      feedback.classList.add("is-error");
+      password.value = "";
+      password.focus();
+    });
+  }
+
+  const contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    const contactFeedback = document.getElementById("contactFeedback");
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      contactForm.classList.add("was-validated");
+      if (!contactForm.checkValidity()) {
+        contactFeedback.textContent = "Revise os campos destacados.";
+        return;
+      }
+      contactFeedback.textContent = "Demonstração concluída: nenhum dado foi enviado.";
+      contactForm.reset();
+      contactForm.classList.remove("was-validated");
+    });
+  }
 });
