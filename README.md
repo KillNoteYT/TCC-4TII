@@ -60,3 +60,6 @@ A primeira versão foi desenvolvida durante a formação técnica. Em 2026, o pr
 
 **Mateus Pereira Camargo**  
 Foco profissional: Desenvolvimento Front-end.
+
+
+.
