@@ -47,7 +47,7 @@ Construir uma aplicação web multipágina adaptável a celular, tablet e deskto
 
 ## Login demonstrativo
 
-Este projeto **não possui autenticação real nem backend**. O login existe apenas para demonstrar manipulação de formulário e JavaScript no front-end.
+Vale ressaltar que este projeto **não possui autenticação real nem backend**. O login existe apenas para demonstrar manipulação de formulário e JavaScript no front-end.
 
 - Usuário: `usuario`
 - Senha: `senha`
